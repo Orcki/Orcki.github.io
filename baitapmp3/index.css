@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 50px ;
+  font-family: arial;
+}
+ul > li {
+  float: left;
+  list-style-type: none;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+   padding: 15px;
+  }
+  .menu > li > a {
+  text-transform: uppercase;
+  color: #9696a1;
+  
+}
+  .menu > li:not(.menu-active) > a:hover{
+  border-bottom: 2px solid purple;
+}
+
+.sub-menu{
+  display: none;
+  position: absolute;
+  list-style: none;
+  width: 175px;
+  top: 85px;
+  color: red;
+  background: pink;
+  height: 300px;
+  width: 100%
+
+}
+li:hover > .sub-menu {
+  display: block;
+}
