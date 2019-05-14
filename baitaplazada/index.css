@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body {
+ font-family: sans-serif;
+ font-size: 15px;
+}
+.all-menu ul {
+ 
+ width: 250px;
+ padding: 0;
+ list-style-type: none;
+ text-align: left;
+}
+.all-menu li {
+ width: auto;
+ height: 40px;
+ line-height: 40px;
+ border-bottom: 1px solid #e8e8e8;
+ padding: 0 1em;
+ position: relative;
+}
+.all-menu li a {
+ text-decoration: none;
+ color: ;
+ font-weight: bold;
+ display: block;
+}
+.all-menu li:hover {
+ background:;
+}
+.sub-menu{
+	position: absolute;
+	left: 250px;
+	top: 0;
+	display: none;
+}
+.sub-menu2{
+	position: absolute;
+	top: -80px;
+	display: none;
+}
+.menu li:hover .sub-menu{
+	display: block;
+}
+ li:hover > .sub-menu2{
+	display: block;
+	left: 250px;
+}
