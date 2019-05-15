@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin : 0;
+	box-sizing: border-box;
+}
+body {
+	height: 1000px;
+	width: 1000px;
+}
+.all-menu {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 40px;
+	border: 5px solid red ;
+}
+div {
+	border: 5px solid red;
+
+}
+.anh{
+	background: pink;
+	padding: 1.2em 1.4em;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 9x gray;
+	cursor: pointer;
+	outline: none;
+}
+.anh img {
+	max-height: 200px;
+	max-width: 200px;
+	
+}
+.anh:hover {
+	transform: scale(1.5);
+	box-shadow: 0 4px ;
+}
+.lung{
+display: block;
+text-align: center;
+}
+
