@@ -1,5 +1,7 @@
 body {
 	text-align: center;
+	width: 100%;
+	height: 100%;
     
 }
 .container-1{
@@ -38,7 +40,7 @@ body {
 .container-4{
 	position: absolute;
 	background: #342C2C;
-	width: 1280px;
+	width: 1110px;
 
 }
 .navbar-brand{
@@ -55,7 +57,7 @@ text-align: right;
 }
 #car{
 	position: absolute;
-    right: 850px;
+    right: 950px;
     width: 100px;
     top:400px;
     padding: 10px;
@@ -74,7 +76,7 @@ text-align: right;
 .push{
 
 }
-.container{
+.container-7{
 	position: relative;
 	left: 40px;
 	top: 150px;
@@ -118,7 +120,7 @@ button{
   	font-family: Poppins;
 	font-style: normal;
   	position: relative;
-  	left: 550px;
+  	left: 470px;
   	top: 20px;
   	font-size: 11px;
   	line-height: 22px;
