@@ -1,0 +1,149 @@
+body {
+	text-align: center;
+    
+}
+.container-1{
+	background-image:url(img/Background.jpg);
+	height: 700px;
+	background-repeat: no-repeat;
+
+	
+}
+.nav-item{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+ 	
+}
+.nav-link{
+	color: white;
+}
+.rol{
+	position: absolute;
+	
+
+}
+.container-3{
+	background-image:url(img/backgr.png);
+	height: 300px;
+	position: relative;
+	top :50px;
+
+}
+.btn{
+	background-color: #DEFF06;
+}
+.container-4{
+	position: absolute;
+	background: #342C2C;
+	width: 1280px;
+
+}
+.navbar-brand{
+	font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.064727px;
+
+color: #FFFFFF;
+text-align: right;
+}
+#car{
+	position: absolute;
+    right: 850px;
+    width: 100px;
+    top:400px;
+    padding: 10px;
+}
+.row{
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #000000;
+
+}
+.push{
+
+}
+.container{
+	position: relative;
+	left: 40px;
+	top: 150px;
+}
+.fix{
+	position: relative;
+	top:40px;
+}
+h3{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 54px;
+	line-height: 81px;
+	color: white;
+}
+h2{
+	font-family: Poppins;
+	font-style: normal;
+	line-height: 60px;
+	color: white;
+}
+.container-6{
+	position: relative;
+	top: 40px;
+}
+.container2{
+	position: relative;
+	top:80px;
+}
+button{
+	background-color: #FFD200;
+	height: 40px;
+	width: 200px;
+	border: none;
+	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	font-family: Poppins;
+	font-style: normal;
+  	position: relative;
+  	left: 550px;
+  	top: 20px;
+  	font-size: 11px;
+  	line-height: 22px;
+  	text-align: center;
+	letter-spacing: 0.059748px;
+	color: #FFFFFF;
+  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input{
+	position: relative;
+
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	
+
+color: #757575;
+}
+.btn{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #757575;
+	bottom: 2px;
+}
